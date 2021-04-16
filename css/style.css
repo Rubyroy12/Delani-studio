@@ -10,3 +10,12 @@
     background-size: cover;
     height: 50vh;
 }
+.design{
+    display: none;
+}
+.development{
+    display: none;
+}
+.product{
+    display: none;
+}
