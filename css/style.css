@@ -1,12 +1,11 @@
 #intro{
-    background-image: url(/images/backgrounds/h_img.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height:100vh; 
+    height:80vh; 
 }
 #services{
 
-    background-image: url(/images/backgrounds/s_image.jpg);
+   
     background-repeat: no-repeat;
     background-size: cover;
     height: 50vh;
