@@ -28,23 +28,24 @@ $(document).ready(function () {
         $(".product").hide();
         $(".p-image").show();
     });
-    // $("document").ready(function () {
-    $("#form").submit(function (event) {
+    $("document").ready(function () {
+    $("form#myform").submit(function (event) {
         event.preventDefault();
         var uname = $("#name").val();
         var umail = $("#email").val();
         var message = $("#message").val();
 
         if (message == " ") {
-            alert(uname + ", PLease give us feedback");
+            alert(" PLease give us feedback");
 
         } else {
-            alert(umail + "We have received your email.");
+            alert( uname + " We have received your email. Thank you for reaching us.");
         }
 
 
+
     })
-    // })
+    })
 
 
 
