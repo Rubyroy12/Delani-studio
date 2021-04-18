@@ -47,4 +47,20 @@ body {
 
 input{
     width:100%;
+    background-color:inherit;
+    color: white;
+    border:1px solid white;
+}
+textarea{
+    background-color:inherit;
+    border: 1px solid white;
+    width: 50vw;
+    color: white;
+}
+input[input=text]{
+    color: white;
+
+}
+::placeholder{
+    color: white;
 }
