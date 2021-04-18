@@ -11,8 +11,9 @@
 2. CSS
 3. JAVASCRIPT
 4. JQUERY
+5. BOOTSTRAP
 ## Live site
-- View [live](https://rubyroy12.github.io/Delani-studio/)
+- View  [live](https://rubyroy12.github.io/Delani-studio/)
 ## License
 This project is under [MIT](LICENSE.md) license.
 
