@@ -12,7 +12,7 @@
 3. JAVASCRIPT
 4. JQUERY
 ## Live site
-- View [live]
+- View [live](https://rubyroy12.github.io/Delani-studio/)
 ## License
 This project is under [MIT](LICENSE.md) license.
 
