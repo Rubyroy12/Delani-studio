@@ -28,23 +28,23 @@ $(document).ready(function () {
         $(".product").hide();
         $(".p-image").show();
     });
-    $("document").ready(function () {
-        $("#form").submit(function(event) {
-            event.preventDefault();
-            var uname = $("#name").val();
-            var uemail = $("#email").val();
-            var message = $("#message").val();
+    // $("document").ready(function () {
+    $("#form").submit(function (event) {
+        event.preventDefault();
+        var uname = $("#name").val();
+        var umail = $("#email").val();
+        var message = $("#message").val();
 
-            if (message == " ") {
-                alert(uname + ", PLease give us feedback");
+        if (message == " ") {
+            alert(uname + ", PLease give us feedback");
 
-            } else {
-                alert(uemail + "We have received your email.");
-            }
+        } else {
+            alert(umail + "We have received your email.");
+        }
 
 
-        })
     })
+    // })
 
 
 
