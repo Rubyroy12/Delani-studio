@@ -36,11 +36,6 @@ body {
 
 }
 
-.delani {
-    display: none;
-
-}
-
 .p.images>.imgrow2>img {
     height: 180px;
 }
@@ -64,3 +59,4 @@ input[input=text]{
 ::placeholder{
     color: white;
 }
+
