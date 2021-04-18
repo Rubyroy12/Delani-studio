@@ -13,4 +13,6 @@
 4. JQUERY
 ## Live site
 - View [live]
+## License
+This project is under [MIT](LICENSE.md) license.
 
