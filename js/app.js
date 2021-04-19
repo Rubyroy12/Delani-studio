@@ -2,13 +2,14 @@ $(document).ready(function () {
     // alert("page under development process");
 
     //design onclick toggle
-    $(".d-image").click(function () {
+    $(".des-image").click(function () {
         $(".design").show();
-        $(".d-image").hide();
+        $(".des-image").hide();
+       
     });
 
     $(".design").click(function () {
-        $(".d-image").show();
+        $(".des-image").show();
         $(".design").hide();
     });
     $(".dev-image").click(function () {
@@ -59,43 +60,22 @@ $(document).ready(function () {
     $("#work8").hover(function(){
         $("#work8").toggle();
         $("#w8").toggle();
-    })
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    });
 
 
     $("document").ready(function () {
-    $("form#myform").submit(function (event) {
+    $(".validate").submit(function (event) {
         event.preventDefault();
-        var uname = $("#name").val();
-        var umail = $("#email").val();
-        var message = $("#message").val();
+        var uname = $("#mce-NAME").val();
+        var umail = $("#mce-EMAIL").val();
+        var message = $("#textarea").val();
 
         if (message == " ") {
             alert(" PLease give us feedback");
 
         } else {
             alert( uname + " We have received your email.("+ umail+ ") Thank you for reaching us.");
+
         }
 
 
