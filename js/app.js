@@ -51,3 +51,6 @@ $(document).ready(function () {
 
 
 })
+ function success(){
+     alert(uname + "we have received your email. Thank you for reaching us.");
+ }
