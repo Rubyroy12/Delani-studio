@@ -28,6 +28,62 @@ $(document).ready(function () {
         $(".product").hide();
         $(".p-image").show();
     });
+    $("#work1").hover(function(){
+        $("#work1").toggle();
+        $("#w1").toggle();
+    })
+    $("#work2").hover(function(){
+        $("#work2").toggle();
+        $("#w2").toggle();
+    })
+    $("#work3").hover(function(){
+        $("#work3").toggle();
+        $("#w3").toggle();
+    })
+    $("#work4").hover(function(){
+        $("#work4").toggle();
+        $("#w4").toggle();
+    })
+    $("#work5").hover(function(){
+        $("#work5").toggle();
+        $("#w5").toggle();
+    })
+    $("#work6").hover(function(){
+        $("#work6").toggle();
+        $("#w6").toggle();
+    })
+    $("#work7").hover(function(){
+        $("#work7").toggle();
+        $("#w7").toggle();
+    })
+    $("#work8").hover(function(){
+        $("#work8").toggle();
+        $("#w8").toggle();
+    })
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     $("document").ready(function () {
     $("form#myform").submit(function (event) {
         event.preventDefault();
@@ -39,14 +95,15 @@ $(document).ready(function () {
             alert(" PLease give us feedback");
 
         } else {
-            alert( uname + " We have received your email. Thank you for reaching us.");
+            alert( uname + " We have received your email.("+ umail+ ") Thank you for reaching us.");
         }
 
 
 
     })
     })
-    $()
+
+
 
 
 

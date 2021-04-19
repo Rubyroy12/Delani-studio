@@ -31,8 +31,8 @@ body {
     display: none;
 }
 
-.row {
-    margin: 50px;
+.whatwedo>.row {
+    margin: 30px;
 
 }
 
@@ -60,4 +60,13 @@ input[input=text]{
 ::placeholder{
     color: white;
 }
-
+.col-md-3>p{
+    display: none;
+    font-size:  30px;
+    color:black;
+    background-color:white;
+    border: 2px solid black;
+    width:70%;
+    height:80%;
+    z-index: 0;
+}
